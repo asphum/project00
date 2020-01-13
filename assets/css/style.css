@@ -1,0 +1,94 @@
+html {
+  font-family: 'Sarabun', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  font-size: 100%; /* เพื่อให้ 1rem มีค่าประมาณ 16px */
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  background-color: #DDD;
+}
+.bgmenu {background-color: #00d1b2;}
+.container-large {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.logoweb {
+  color: #FFF !important;
+  font-weight: 800 !important;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 1.5rem !important;
+}
+.menubur {
+  color: #FFF !important;
+  font-weight: 800 !important;
+  font-size: 1.5rem !important;
+  cursor: pointer;
+}
+body {
+  font-family: 'Sarabun', sans-serif;
+}
+
+a {
+  color: #000;
+  font-weight: 600;
+  font-family: 'Sarabun', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+.content { max-width: 600px; margin-left: auto; margin-right: auto;}
+.btn-primary {
+  background-color: #FFF !important;
+  color: #00d1b2 !important;
+  font-weight: 700 !important;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 1.2rem;
+  border: 3px solid #00d1b2 !important;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.btn-primary:hover {
+  background-color: #00d1b2 !important;
+  color: #FFF !important;
+  border: 3px solid #00d1b2 !important;
+}
+
+
+.coveralbum {
+  height: 200px;
+  transition: 0.3s;
+}
+.coveralbum:hover {
+  opacity: 0.8;
+  filter: blur(0);
+}
+.coveralbum img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  padding: 5px;
+}
+.textcoveralbum {
+    position: absolute !important;
+    padding: 2px 5px;
+    background: rgb(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: #FFF !important;
+    right: 0;
+    border-radius: 4px;
+    font-weight: 400;
+}
