@@ -28,7 +28,7 @@
     "mongoose": "^5.8.7",
     "mongoose-unique-validator": "^2.0.3",
     "morgan": "^1.9.1",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.15.8"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0"
